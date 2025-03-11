@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Marta/Desktop/WSC-P/WSC_P_Cholodecki/napoje_beh_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="napoje_beh_test" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="divider25" type="divider">
+      <obj_property name="label">Linie sterujace</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/nr_w" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nr_w</obj_property>
+      <obj_property name="ObjectShortName">nr_w</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/adres" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adres[2:0]</obj_property>
+      <obj_property name="ObjectShortName">adres[2:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/dane_we" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dane_we[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dane_we[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/dane_wy" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dane_wy[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dane_wy[7:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider27" type="divider">
+      <obj_property name="label">Wejscia uzytkownika</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/user_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">user_sel</obj_property>
+      <obj_property name="ObjectShortName">user_sel</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/user_ok" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">user_ok</obj_property>
+      <obj_property name="ObjectShortName">user_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/user_break" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">user_break</obj_property>
+      <obj_property name="ObjectShortName">user_break</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/moneta_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">moneta_in</obj_property>
+      <obj_property name="ObjectShortName">moneta_in</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider59" type="divider">
+      <obj_property name="label">Zawartosc rejestrow</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="group60" type="group">
+      <obj_property name="label">ILE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/napoje_beh_test/uut/kawa_ile" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">kawa_ile[7:0]</obj_property>
+         <obj_property name="ObjectShortName">kawa_ile[7:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#800000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/napoje_beh_test/uut/herb_ile" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">herb_ile[7:0]</obj_property>
+         <obj_property name="ObjectShortName">herb_ile[7:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#008000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/napoje_beh_test/uut/sok_ile" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sok_ile[7:0]</obj_property>
+         <obj_property name="ObjectShortName">sok_ile[7:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group62" type="group">
+      <obj_property name="label">CENA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/napoje_beh_test/uut/kawa_cena" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">kawa_cena[3:0]</obj_property>
+         <obj_property name="ObjectShortName">kawa_cena[3:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#800000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/napoje_beh_test/uut/herb_cena" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">herb_cena[3:0]</obj_property>
+         <obj_property name="ObjectShortName">herb_cena[3:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#008000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/napoje_beh_test/uut/sok_cena" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">sok_cena[3:0]</obj_property>
+         <obj_property name="ObjectShortName">sok_cena[3:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group68" type="group">
+      <obj_property name="label">INNE</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/napoje_beh_test/uut/monety_ile" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">monety_ile[7:0]</obj_property>
+         <obj_property name="ObjectShortName">monety_ile[7:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffff00</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/napoje_beh_test/uut/moc" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">moc[1:0]</obj_property>
+         <obj_property name="ObjectShortName">moc[1:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#800000</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/napoje_beh_test/uut/napoj" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">napoj[1:0]</obj_property>
+         <obj_property name="ObjectShortName">napoj[1:0]</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="CustomSignalColor">#ffffff</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider29" type="divider">
+      <obj_property name="label">Wyjscia</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/podajnik_trig" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">podajnik_trig</obj_property>
+      <obj_property name="ObjectShortName">podajnik_trig</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/nr_podajnika" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nr_podajnika[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nr_podajnika[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/napoje_beh_test/reszta_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reszta_out</obj_property>
+      <obj_property name="ObjectShortName">reszta_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+</wave_config>
