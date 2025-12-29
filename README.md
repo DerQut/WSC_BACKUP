@@ -1,0 +1,1 @@
+To repozytorium służy jako kopia zapasowa projektu testbencha maszyny stanów języka VHDL napisanego w języku Verilog. Celem projektu było zbadanie i opisanie rozbieżności maszyny stanów od specyfikacji. 
